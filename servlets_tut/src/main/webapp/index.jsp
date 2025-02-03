@@ -12,6 +12,11 @@
 
     <h1>Hello from Hardik Pansheriya</h1>
 	<p>this is a life</p>
+	
+	<form action="<%= application.getContextPath() %>/third" method = "post">
+		<input type="text" placeholder="enter text here" name = "message" />
+		<button type = "submit">Submit</button>
+	</form>
 </div>
 <script src="<%= application.getContextPath() %>/js/script.js"></script>
 </body>
